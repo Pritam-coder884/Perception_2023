@@ -2,11 +2,13 @@ import React from "react"
 
 import Footer from "../components/footer"
 import Register from "../pages/register/Register";
+import Login from "../pages/login/Login";
 
 const Home=()=>{
     return(
         <>
-            <Register/>
+        <Login />
+            {/* <Register/> */}
             <Footer/>
         </>
     )
