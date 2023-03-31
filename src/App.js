@@ -1,8 +1,11 @@
 import React from 'react'
+import Home from './routes/home'
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Home/>
+    </>
   )
 }
 
