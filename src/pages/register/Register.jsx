@@ -20,7 +20,7 @@ const Register = () => {
                     </div>
                     <div className="input-group">
                         <select name="gender" className='rs-select'>
-                            <option disabled="disabled" selected="selected">Gender</option>
+                            <option disabled selected="selected">Gender</option>
                             <option>Male</option>
                             <option>Female</option>
                             <option>Other</option>
@@ -35,8 +35,8 @@ const Register = () => {
                     <div className="input-group">
                         <input className="input--style-3" type="number" placeholder="Phone" name="phone" required />
                     </div>
-                    <div class="input-group">
-                            <input class="input--style-3" type="text" placeholder="College" name="college" required />
+                    <div className="input-group">
+                            <input className="input--style-3" type="text" placeholder="College" name="college" required />
                     </div>
                     <button className='auth-btn'>SUBMIT</button>
                 </form>

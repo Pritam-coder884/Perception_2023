@@ -1,0 +1,50 @@
+.gmap-canva{
+// background-color: #fff;
+padding: 5rem 5rem ;
+.gmap{
+    width: 27rem;
+    height: 20rem;
+    border: 0;
+}
+}
+
+.fb_canvas{
+    height: 25rem;
+}
+
+@media only screen and (min-width:300px){
+.gmap-canva{
+    padding:0.5rem .6rem;
+    .gmap{
+        width: auto;
+    }
+}
+}
+@media only screen and (min-width:600px){
+    .gmap-canva{
+        .gmap{
+            width: 35rem;
+        }
+    }
+}
+@media only screen and (min-width:660px){
+    .gmap-canva{
+        .gmap{
+            width: 40rem;
+        }
+    }
+}
+@media only screen and (min-width:1020px){
+    .gmap-canva{
+        .gmap{
+            width: 22rem;
+        }
+    }
+}
+@media only screen and (min-width:1440px){
+    .gmap-canva{
+        .gmap{
+            width: 40rem;
+        }
+    }
+}
