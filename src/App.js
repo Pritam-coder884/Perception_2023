@@ -1,8 +1,11 @@
 import React from 'react'
+import AboutUs from './components/AboutUs'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <AboutUs/>
+    </div>
   )
 }
 
