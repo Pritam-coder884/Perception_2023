@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 import Home from './routes/home'
 
@@ -10,4 +10,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
