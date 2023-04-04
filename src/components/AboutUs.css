@@ -76,6 +76,9 @@
         display: grid;
         grid-template-columns: 10fr 2fr;
     }
+    .heading{
+        text-align: center;
+    }
     .content{
         display: flex;
         align-items: center;

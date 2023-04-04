@@ -1,5 +1,6 @@
 import React from 'react'
 import './AboutUs.css'
+import glitch from "../Assets/images/mrglitch.png";
 
 const AboutUs = () => {
   return (
@@ -19,7 +20,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="glitch">
-          <img src="/glitch.png" alt="" />
+          <img src={glitch} alt="" />
         </div>
       </div>
     </div>
