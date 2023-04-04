@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Homepage.css";
-import Navbar from './Navbar';
+import Navbar from '../../../components/navbar/Navbar';
 const Homepage = () => {
   return (
     <div className='bg'>

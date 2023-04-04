@@ -1,6 +1,6 @@
 import React from 'react'
 import './AboutUs.css'
-import glitch from "../Assets/images/mrglitch.png";
+import glitch from "../../../Assets/images/mrglitch.png";
 
 const AboutUs = () => {
   return (

@@ -1,10 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import "../../styles/auth.style.scss";
 import authImage from "../../Assets/images/bg-auth.png";
+
 
 const Register = () => {
   return (
     <div className='auth-card-wrapper'>
+         <Link to="/"> <button><h1>Goto Home</h1></button></Link>
         <div className='auth-card'>
             <div className="auth-card-image">
                 <img src={authImage} alt="" />
