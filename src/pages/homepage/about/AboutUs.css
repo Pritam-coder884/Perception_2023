@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap');
+.aboutUs{
+    background-color: rgba(222, 222, 222, 0.646);
+    background-attachment: fixed;
+    overflow-x: hidden; 
+    padding: 0 5rem;
+}
+.top{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+}
+.heading{
+    margin-top: 1.2rem;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Tomorrow', sans-serif;
+}
+.l1, .l2{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    width: 100%;
+}
+.l1{
+    margin-top: 1.2rem;
+    margin-left: 7rem;
+}
+.l2{
+    margin-top: 1.2rem;
+    margin-left: -7rem;
+}
+.line1, .line2{
+    border-radius: 100px;
+    height: 1px;
+    width: 100%;
+    background-color: rgb(163, 163, 163);
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.glitch{
+    display: flex;
+    justify-content: center;
+}
+.glitch img{
+    height: 420px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: large;
+}
+.para{
+    line-height: 25px;
+    word-spacing: 5px;
+    text-align: justify;
+}
+.th{
+    position: relative;
+    bottom: 5px;
+}
+.date{
+    word-spacing: 3px;
+}
+@media screen and (max-width: 1264px){
+    .line1, .line2 {
+        display: none;
+    } 
+}
+@media screen and (max-width: 779px){
+    .row{
+        display: grid;
+        grid-template-columns: 10fr 2fr;
+    }
+    .heading{
+        text-align: center;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        grid-row: 1/2;
+    }
+    .glitch{
+        grid-row: 2/3;
+        margin-top: 2rem;
+    }
+}

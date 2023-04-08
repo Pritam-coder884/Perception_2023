@@ -35,6 +35,7 @@
 max-width: 100%;
   outline: solid white 7px;
 }
+<<<<<<< HEAD:src/index.css
 .title{
   color: white;
   font-size: 0.7em;
@@ -78,3 +79,23 @@ max-width: 100%;
   color: white;
 
 }*/
+=======
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+>>>>>>> bdc2f1b39ae5872f13fee3d6e1e4cbb2eca02c22:src/index.scss
