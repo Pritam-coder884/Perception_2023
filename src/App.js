@@ -1,15 +1,8 @@
-import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import "react-toastify/dist/ReactToastify.css";
-import Home from './routes/home'
+import React from 'react'
 
 const App = () => {
   return (
-    <>
-    <BrowserRouter>
-      <Home/>
-    </BrowserRouter>
-    </>
+    <div>App</div>
   )
 }
 
